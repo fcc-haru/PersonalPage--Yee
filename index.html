@@ -3,34 +3,104 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Yee's personal homPage</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">  
 
   </head>
   <body>
-    <header></header>
-    <nav></nav>
-    <section>
-      <article></article>
-      <aside></aside>
-    </section>
-    <section>
-      <article></article>
-      <aside></aside>
-    </section>
-    <section>
-      <article></article>
-      <aside></aside>
-    </section>
-    <footer></footer>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 align-content-between">
+            <img src="./images/icon-noolde.png" id="yeePic">
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <h4 class="fontArial">Hello! I’m <span id="yee">Yee</span>, a UX/UI designer.</h4>
+            <p class="text-secondary fontHelvetica">I'm a UX Designer passionate about transforming complex problems into meaningful and effortless solutions. Having worked with both startups and enterprises, I'm skilled at practicing agile, connecting different stakeholders and thinking about both user and business values. On weekends, you will find me walking around with my camera to capture the beauty of life or sketching what I see. </p>
+          </div>
+          <div class="col-md-3 col-sm-6 align-content-between fontArial">
+            <p class="text-secondary contact">CONTACT ME</p>
+            <p class="text-muted mail"><span class="mailIcon"></span>yeewan912@gmail.com</p>
+            <p class="text-muted"><span class="phoneIcon"></span>(+64) 0211068631</p>
+            <p class="text-muted"><span class="wechatIcon"></span>wanyi0912</p>
+            <div class="flex-row iconBox">
+              <img src="./images/dribble-black-2x.png" alt="">
+              <img src="./images/ins-black-2x.png" alt="">
+              <img src="./images/Youtube-black-2x.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-light">
+      <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ILLUSTRATIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PHOTOGRAPHY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">RESUME</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container content">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="cardBox">
+            <div class="ymhPic"></div>
+              <div class="ymhText">
+                <p>益民惠 / Yiming</p>
+                <small>User Research + Product Design</small>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="cardBox">
+            <div class="tripPic"></div>
+            <div class="tripText">
+              <p>Trip Flow ( Concept product )</p>
+              <small>Product Design</small>
+              
+            </div>
+           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="cardBox">
+            <div class="huoliPic"></div>
+            <div class="huoliText">
+              <p>伙力食 / Huoli</p>
+              <small>UX + Interaction Design</small>
+            </div>
+           </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="cardBox">
+            <div class="flightPic"></div>
+            <div class="flightText">
+              <p>航班管家 / Flight Butler</p>
+              <small>UX + Interaction Design</small>
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+      <small>Design &amp; code by Yi Wan © 2018 ❤️Last update: December 10th, 2018 @ Christchurch,New Zealand</small>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -1,0 +1,108 @@
+body{
+    font-family: Helvetica!important;
+}
+header .container{
+    padding: 50px 0;
+}
+
+#yeePic{
+    width:10rem;
+    height:10rem;
+}
+
+.fontArial{
+    font-family: Arial!important;
+}
+.fontHelvetica{
+    font-family: Helvetica!important;
+}
+
+#yee{
+    color:#EF5D58;
+}
+
+.mail{
+    white-space: nowrap;
+}
+
+.mailIcon,.phoneIcon,.wechatIcon{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.1rem;
+    vertical-align: middle;
+    padding: 2px;
+}
+.mailIcon{
+    background: url("../images/email-3x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
+}
+.phoneIcon{
+    background: url("../images/telphone-3x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
+}
+.wechatIcon{
+    background: url("../images/wechat-3x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
+}
+
+.iconBox img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.navbar ul{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.navbar ul li{
+    width: 25%;
+    font-size: 0.8em;
+    font-family:Helvetica-Bold;
+    font-weight:600;
+    text-align: center;
+    color:#6c757d;
+}
+
+.navbar ul li a:hover,.navbar ul li a:active{
+    color: #000000;
+    border-bottom: 2px solid #212529;
+}
+
+.cardBox{
+    box-shadow:-2px 20px 30px -10px rgba(169,168,170,0.27);
+    border-radius:10px;
+    margin-bottom: 2rem;
+}
+
+.cardBox div p{
+    margin:0;
+}
+
+.ymhPic,.tripPic,.huoliPic,.flightPic{
+    width:100%;
+    height:15rem;
+    box-shadow:-2px 20px 30px -10px rgba(169,168,170,0.27);
+    border-radius:10px 10px 0 0;
+}
+.ymhPic{
+    background: #C4EBDC url('../images/icon-noolde.png') center/30% no-repeat;
+}
+.tripPic{
+    background: #F9FEBF url('../images/icon-HotAirBalloon.png') center/20% no-repeat;
+}
+.huoliPic{
+    background: #FFDED6 url('../images/icon-party.png') center/40% no-repeat;
+}
+.flightPic{
+    background: #BFF0FE url('../images/icon-airplan.png') center/30% no-repeat;
+}
+.ymhText,.tripText,.huoliText,.flightText{
+    padding: 10px 5px;
+}
+footer{
+    margin:50px 0 30px 0;
+    text-align: center;
+}

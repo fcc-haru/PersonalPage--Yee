@@ -67,14 +67,16 @@ header .container{
 }
 
 .navbar ul li a:hover,.navbar ul li a:active{
-    color: #000000;
+    height: 35px;
+    color: #ccc;
+    font-weight: 500;
     border-bottom: 2px solid #212529;
 }
 
 .cardBox{
     box-shadow:-2px 20px 30px -10px rgba(169,168,170,0.27);
     border-radius:10px;
-    margin-bottom: 2rem;
+    margin-bottom: 3.75rem;
 }
 
 .cardBox div p{
@@ -83,26 +85,42 @@ header .container{
 
 .ymhPic,.tripPic,.huoliPic,.flightPic{
     width:100%;
-    height:15rem;
+    height:15.625rem;
     box-shadow:-2px 20px 30px -10px rgba(169,168,170,0.27);
     border-radius:10px 10px 0 0;
 }
 .ymhPic{
-    background: #C4EBDC url('../images/icon-noolde.png') center/30% no-repeat;
+    background: #C4EBDC url('../images/icon-noolde.png') center/20% no-repeat;
 }
 .tripPic{
-    background: #F9FEBF url('../images/icon-HotAirBalloon.png') center/20% no-repeat;
+    background: #F9FEBF url('../images/icon-HotAirBalloon.png') center/10% no-repeat;
 }
 .huoliPic{
-    background: #FFDED6 url('../images/icon-party.png') center/40% no-repeat;
+    background: #FFDED6 url('../images/icon-party.png') center/30% no-repeat;
 }
 .flightPic{
-    background: #BFF0FE url('../images/icon-airplan.png') center/30% no-repeat;
+    background: #BFF0FE url('../images/icon-airplan.png') center/20% no-repeat;
 }
 .ymhText,.tripText,.huoliText,.flightText{
-    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5px;
+    height: 4.75rem;
 }
 footer{
     margin:50px 0 30px 0;
     text-align: center;
+}
+/*cover grid stylesheet*/
+.content {
+    padding: 0px 3.125rem;
+}
+.row {
+    justify-content: space-around; 
+}
+
+.col-md-6 {
+    flex: 0 0 28.75rem;
+    padding: 0;
 }

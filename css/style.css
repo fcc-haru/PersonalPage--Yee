@@ -1,6 +1,36 @@
 body{
-    font-family: Helvetica!important;
+    font-family: Helvetica;
+    font-size: 1.125rem;
 }
+
+@media (min-width: 768px) {
+  body{
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    body{
+        font-size: 1.375rem;
+    }
+}
+
+.fontXs{
+    font-size: 0.75rem; /*12px*/
+}
+
+.fontSm{
+    font-size: 0.875rem; /*14px*/
+}
+
+.fontMd{
+    font-size: 1.0rem; /*16px*/
+}
+
 header .container{
     padding: 60px 0 110px 0;
 }
@@ -13,8 +43,21 @@ header .container{
 .fontArial{
     font-family: Arial!important;
 }
-.fontHelvetica{
-    font-family: Helvetica!important;
+
+.darkBlack{
+    color:#000000;
+}
+
+.lightBlack{
+    color: #040404;
+}
+
+.darkGray{
+    color:#4A4A4A;
+}
+
+.lightGray{
+    color:#A9A8AA;
 }
 
 #yee{
@@ -98,18 +141,23 @@ header .container{
 }
 .navbar ul li{
     width: 25%;
-    font-size: 0.8em;
-    font-family:Helvetica-Bold;
-    font-weight:600;
+    height: 2rem;
     text-align: center;
-    color:#6c757d;
 }
 
-.navbar ul li a:hover,.navbar ul li a:active{
-    height: 35px;
-    color: #ccc;
-    font-weight: 500;
-    border-bottom: 2px solid #212529;
+.nav-link{
+    display: inline-block;
+}
+
+a{
+    padding:2px !important;
+}
+
+a:hover{
+    color:#000000 !important;
+    font-family: Microsoft YaHei !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid #212529 !important;
 }
 
 .cardBox{
@@ -129,10 +177,10 @@ header .container{
     border-radius:10px 10px 0 0;
 }
 .ymhPic{
-    background: #C4EBDC url('../images/icon-noolde.png') center/20% no-repeat;
+    background: #C4EBDC url('../images/icon-noolde.png') center/25% no-repeat;
 }
 .tripPic{
-    background: #F9FEBF url('../images/icon-HotAirBalloon.png') center/10% no-repeat;
+    background: #F9FEBF url('../images/icon-HotAirBalloon.png') center/18% no-repeat;
 }
 .huoliPic{
     background: #FFDED6 url('../images/icon-party.png') center/30% no-repeat;
@@ -151,6 +199,7 @@ footer{
     margin:50px 0 30px 0;
     text-align: center;
 }
+
 /*cover grid stylesheet*/
 .content {
     padding: 0px 3.125rem;

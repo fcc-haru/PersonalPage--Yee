@@ -2,7 +2,7 @@ body{
     font-family: Helvetica!important;
 }
 header .container{
-    padding: 20px 0;
+    padding: 60px 0 110px 0;
 }
 
 #yeePic{
@@ -31,7 +31,9 @@ header .container{
     height: 1.1rem;
     vertical-align: middle;
     padding: 2px;
+    margin-right: 6px;
 }
+
 .mailIcon{
     background: url("../images/email-3x.png") no-repeat;
     background-origin: content-box;
@@ -48,9 +50,46 @@ header .container{
     background-size:100% 100%; 
 }
 
-.iconBox img{
+.iconBox a{
+    display: inline-block;
     width: 1.2rem;
     height: 1.2rem;
+    margin-right: 18px;
+}
+.dirbble{
+    background: url("../images/dribble-black-2x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
+}
+
+.dirbble:hover,.dirbble:active{
+    background: url("../images/dirbble-color-2x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
+}
+
+.ins{
+    background: url("../images/ins-black-2x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
+}
+
+.ins:hover,.ins:active{
+    background: url("../images/ins-color-2x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
+}
+
+.youtube{
+    background: url("../images/youtube-black-2x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
+}
+
+.youtube:hover,.youtube:active{
+    background: url("../images/youtube-color-2x.png") no-repeat;
+    background-origin: content-box;
+    background-size:100% 100%; 
 }
 
 .navbar ul{

@@ -1,0 +1,196 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: #4A4A4A;
+}
+
+.fontBlod{
+    font-family: Helvetica-Bold;
+    font-weight:bold;
+}
+
+.textContent{
+    font-family: Helvetica-Light;
+    font-weight:300;
+}
+
+.header{
+    overflow: hidden;
+    padding:40px 80px;
+}
+.pic{
+    height: 80px;
+    width: 80px;
+    border-radius: 50% 50%;
+    line-height: 80px;
+    background: url('../images/IMG_4520.jpg') center/100% no-repeat;
+}
+
+.frontPage,
+.nextPage{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border:1px solid #979797;
+    border-radius: 50% 50%;
+    font-size: 30px;
+    color:#979797;
+    margin: 0 30px;
+}
+
+.nextPage{
+    padding-left: 10px;
+}
+.frontPage{
+    padding-right: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+.mainTitle{
+    font-size: 36px;
+    color:#4A4A4A;
+}
+.subTitle{
+    font-size: 30px;
+    color: #CCCCCC;
+    margin: 27px 0 57px 0;;
+}
+table{
+    width: 100%;
+    border:1px solid #979797;
+    text-align: center;
+    margin-bottom: 80px;
+}
+th{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 26px;
+}
+
+td{
+    padding-bottom: 60px;
+}
+.blue{
+    color: #307CF5
+}
+.red{
+    color:#FF4732;
+}
+.section{
+    margin-bottom: 100px;
+}
+.section p{
+    padding-bottom: 1.5rem;
+}
+
+.cardTitle{
+    font-size: 28px;
+}
+.oval{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+    background-color: #2E8DFE;
+    border-radius: 50% 50%;
+    margin-right: 20px;
+}
+
+.cardInfo{
+    overflow: hidden;
+}
+
+.cardLeft{
+    width: 480px;
+    height: 100%;
+}
+
+.cardRight{
+    width:512px;
+    height: 100%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center ;
+}
+
+.membershipNormal{
+    height: 894px;
+}
+
+.membershipPic{
+    background: url('../images/membership_card.png') center/100% no-repeat;
+}
+
+.logocard{
+    height: 449px;
+    margin:40px 0;
+}
+
+.logocardPic{
+    background: url('../images/color_logo.png') center/100% no-repeat;
+}
+
+.rightcard{
+    height: 748px;
+    margin:20px 0;
+}
+
+.rightcardPic{
+    background: url('../images/illustrating_rights.png') center/100% no-repeat;
+}
+
+
+.cardSubTitle{
+    font-size: 24px;
+}
+.cardContent{
+    font-family: Helvetica-Light;
+    font-weight:300;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

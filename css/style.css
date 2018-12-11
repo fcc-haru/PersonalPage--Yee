@@ -1,74 +1,162 @@
-body{
+body {
     font-family: Helvetica;
     font-size: 1.125rem;
 }
 
+header .container {
+    padding-top: 3.125rem;
+    padding-bottom: 1.625rem;
+}
+
+.col-lg-6 {
+    flex: 0 0 20.9375rem;
+    margin-bottom: 1.5rem;
+    padding: 0;
+}
+
+.ymhPic,
+.tripPic,
+.huoliPic,
+.flightPic {
+    height: 11.375rem;
+}
+
+.ymhText,
+.tripText,
+.huoliText,
+.flightText {
+    height: 3.4375rem;
+}
+
+#yeePic {
+    width: 8.5625rem;
+    height: 8.5625rem;
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: 1.25rem;
+    }
+    #yeePic {
+        width: 10rem;
+        height: 10rem;
+    }
+    .col-lg-6 {
+        flex: 0 0 28.75rem;
+        margin-bottom: 3.75rem;
+        padding: 0;
+    }
+    .ymhPic,
+    .tripPic,
+    .huoliPic,
+    .flightPic {
+        height: 15.625rem;
+    }
+    .ymhText,
+    .tripText,
+    .huoliText,
+    .flightText {
+        height: 4.75rem;
+    }
+}
+
 @media (min-width: 768px) {
-  body{
+    body {
         font-size: 1.25rem;
     }
 }
 
 @media (min-width: 992px) {
-    
-}
-
-@media (min-width: 1200px) {
-    body{
-        font-size: 1.375rem;
+    body {
+        font-size: 1.25rem;
+    }
+    .col-lg-6 {
+        flex: 0 0 25rem;
+        margin-bottom: 2.5rem;
+        padding: 0;
+    }
+    .ymhPic,
+    .tripPic,
+    .huoliPic,
+    .flightPic {
+        height: 13.586rem;
+    }
+    .content {
+        padding: 0px 3.125rem;
     }
 }
 
-.fontXs{
-    font-size: 0.75rem; /*12px*/
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.375rem;
+    }
+    header .container {
+        padding-top: 3.75rem;
+        padding-bottom: 6.875rem;
+    }
+    .col-lg-6 {
+        flex: 0 0 28.75rem;
+        margin-bottom: 3.75rem;
+        padding: 0;
+    }
+    .ymhPic,
+    .tripPic,
+    .huoliPic,
+    .flightPic {
+        height: 15.625rem;
+    }
 }
 
-.fontSm{
-    font-size: 0.875rem; /*14px*/
+.fontXs {
+    font-size: 0.75rem;
+    /*12px*/
 }
 
-.fontMd{
-    font-size: 1.0rem; /*16px*/
+.fontSm {
+    font-size: 0.875rem;
+    /*14px*/
 }
 
-header .container{
-    padding: 60px 0 110px 0;
+.fontMd {
+    font-size: 1.0rem;
+    /*16px*/
 }
 
-#yeePic{
-    width:10rem;
-    height:10rem;
+.fontArial {
+    font-family: Arial !important;
 }
 
-.fontArial{
-    font-family: Arial!important;
+.darkBlack {
+    color: #000000;
 }
 
-.darkBlack{
-    color:#000000;
-}
-
-.lightBlack{
+.lightBlack {
     color: #040404;
 }
 
-.darkGray{
-    color:#4A4A4A;
+.darkGray {
+    color: #4A4A4A;
 }
 
-.lightGray{
-    color:#A9A8AA;
+.lightGray {
+    color: #A9A8AA;
 }
 
-#yee{
-    color:#EF5D58;
+#yee {
+    color: #EF5D58;
 }
 
-.mail{
+.mail {
     white-space: nowrap;
 }
 
-.mailIcon,.phoneIcon,.wechatIcon{
+#yeePic{
+    border-radius: 50% 50%;
+}
+
+.mailIcon,
+.phoneIcon,
+.wechatIcon {
     display: inline-block;
     width: 1.2rem;
     height: 1.1rem;
@@ -77,138 +165,143 @@ header .container{
     margin-right: 6px;
 }
 
-.mailIcon{
+.mailIcon {
     background: url("../images/email-3x.png") no-repeat;
     background-origin: content-box;
-    background-size:100% 100%; 
-}
-.phoneIcon{
-    background: url("../images/telphone-3x.png") no-repeat;
-    background-origin: content-box;
-    background-size:100% 100%; 
-}
-.wechatIcon{
-    background: url("../images/wechat-3x.png") no-repeat;
-    background-origin: content-box;
-    background-size:100% 100%; 
+    background-size: 100% 100%;
 }
 
-.iconBox a{
+.phoneIcon {
+    background: url("../images/telphone-3x.png") no-repeat;
+    background-origin: content-box;
+    background-size: 100% 100%;
+}
+
+.wechatIcon {
+    background: url("../images/wechat-3x.png") no-repeat;
+    background-origin: content-box;
+    background-size: 100% 100%;
+}
+
+.iconBox a {
     display: inline-block;
     width: 1.2rem;
     height: 1.2rem;
     margin-right: 18px;
 }
-.dirbble{
+
+.dirbble {
     background: url("../images/dribble-black-2x.png") no-repeat;
     background-origin: content-box;
-    background-size:100% 100%; 
+    background-size: 100% 100%;
 }
 
-.dirbble:hover,.dirbble:active{
+.dirbble:hover,
+.dirbble:active {
     background: url("../images/dirbble-color-2x.png") no-repeat;
     background-origin: content-box;
-    background-size:100% 100%; 
+    background-size: 100% 100%;
 }
 
-.ins{
+.ins {
     background: url("../images/ins-black-2x.png") no-repeat;
     background-origin: content-box;
-    background-size:100% 100%; 
+    background-size: 100% 100%;
 }
 
-.ins:hover,.ins:active{
+.ins:hover,
+.ins:active {
     background: url("../images/ins-color-2x.png") no-repeat;
     background-origin: content-box;
-    background-size:100% 100%; 
+    background-size: 100% 100%;
 }
 
-.youtube{
+.youtube {
     background: url("../images/youtube-black-2x.png") no-repeat;
     background-origin: content-box;
-    background-size:100% 100%; 
+    background-size: 100% 100%;
 }
 
-.youtube:hover,.youtube:active{
+.youtube:hover,
+.youtube:active {
     background: url("../images/youtube-color-2x.png") no-repeat;
     background-origin: content-box;
-    background-size:100% 100%; 
+    background-size: 100% 100%;
 }
 
-.navbar ul{
+.navbar ul {
     width: 100%;
     margin-bottom: 2rem;
 }
-.navbar ul li{
+
+.navbar ul li {
     width: 25%;
     height: 2rem;
     text-align: center;
 }
 
-.nav-link{
+.nav-link {
     display: inline-block;
 }
 
-a{
-    padding:2px !important;
+a {
+    padding: 2px !important;
 }
 
-a:hover{
-    color:#000000 !important;
+a:hover {
+    color: #000000 !important;
     font-family: Microsoft YaHei !important;
     font-weight: 600 !important;
     border-bottom: 2px solid #212529 !important;
 }
 
-.cardBox{
-    box-shadow:-2px 20px 30px -10px rgba(169,168,170,0.27);
-    border-radius:10px;
-    margin-bottom: 3.75rem;
+.cardBox {
+    box-shadow: -2px 20px 30px -10px rgba(169, 168, 170, 0.27);
+    border-radius: 10px;
 }
 
-.cardBox div p{
-    margin:0;
+.cardBox div p {
+    margin: 0;
 }
 
-.ymhPic,.tripPic,.huoliPic,.flightPic{
-    width:100%;
-    height:15.625rem;
-    box-shadow:-2px 20px 30px -10px rgba(169,168,170,0.27);
-    border-radius:10px 10px 0 0;
+.ymhPic,
+.tripPic,
+.huoliPic,
+.flightPic {
+    border-radius: 10px 10px 0 0;
 }
-.ymhPic{
+
+.ymhPic {
     background: #C4EBDC url('../images/icon-noolde.png') center/25% no-repeat;
 }
-.tripPic{
+
+.tripPic {
     background: #F9FEBF url('../images/icon-HotAirBalloon.png') center/18% no-repeat;
 }
-.huoliPic{
+
+.huoliPic {
     background: #FFDED6 url('../images/icon-party.png') center/30% no-repeat;
 }
-.flightPic{
+
+.flightPic {
     background: #BFF0FE url('../images/icon-airplan.png') center/20% no-repeat;
 }
-.ymhText,.tripText,.huoliText,.flightText{
+
+.ymhText,
+.tripText,
+.huoliText,
+.flightText {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 5px;
-    height: 4.75rem;
+    padding-left: 1.25rem;
 }
-footer{
-    margin:50px 0 30px 0;
+
+footer {
+    margin: 50px 0 30px 0;
     text-align: center;
 }
 
-/*cover grid stylesheet*/
-.content {
-    padding: 0px 3.125rem;
-}
 .row {
-    justify-content: space-around; 
-}
-
-.col-md-6 {
-    flex: 0 0 28.75rem;
-    padding: 0;
+    justify-content: space-around;
 }

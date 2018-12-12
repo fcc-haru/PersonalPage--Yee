@@ -8,13 +8,49 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Yee's personal homPage</title>
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/triPal.css">
 
 </head>
+
 <body>
-    huoli
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <div class="container-fluid project-header">
+        <div class="project-pic float-left"></div>
+        <div class="btn float-right">
+            <span class="frontPage toTripflow">〈</span>
+            <span class="nextPage toFlightButler"i>〉</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="title">
+            <h4 class="mainTitle fontBlod">Huoli</h4>
+        </div>
+    </div>
+    <div class="container" style="overflow:hidden">
+        <div style="margin-top:10px;">
+            <span class="nextPage float-right toFlightButler"> 〉</span>
+        </div>
+        <div class="float-right">
+            <p class="fontBlod">Flight Butler</p>
+            <p>Product Design</p>
+        </div>
+    </div>
+    <footer>
+        <p class="lightGray fontSm">Design &amp; code by Yi Wan © 2018 ❤️Last update: December 10th, 2018 @ Christchurch,New Zealand</p>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <!--<script src="../../js/bootstrap.min.js"></script>-->
+    <script>
+         $(document).ready(function () {
+            $(".toTripflow").click(function () {
+                location.href = './triPal.html';
+            });
+            $(".toFlightButler").click(function () {
+                location.href = './flight-bulter.html';
+            });
+        });
+    </script>
 </body>
+   
 </html>

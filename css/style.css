@@ -150,7 +150,7 @@ header .container {
     white-space: nowrap;
 }
 
-#yeePic{
+#yeePic {
     border-radius: 50% 50%;
 }
 
@@ -304,4 +304,119 @@ footer {
 
 .row {
     justify-content: space-around;
+}
+
+/*project page common font style*/
+
+.fontBlod {
+    font-family: Helvetica-Bold;
+    font-weight: bold;
+}
+
+.textTitle {
+    font-size: 28px;
+}
+
+.textContent {
+    font-family: Helvetica-Light;
+    font-weight: 300;
+}
+
+.cardContent {
+    font-family: Helvetica-Light;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cardSubTitle {
+    font-size: 24px;
+}
+
+.section {
+    margin-bottom: 80px;
+}
+
+.section p {
+    padding-bottom: 1.5rem;
+}
+
+/*project page header and footer*/
+
+.project-header {
+    overflow: hidden;
+    padding: 40px 80px;
+}
+
+.project-pic {
+    height: 80px;
+    width: 80px;
+    border-radius: 50% 50%;
+    line-height: 80px;
+    background: url('../images/IMG_4520.jpg') center/100% no-repeat;
+}
+
+.frontPage,
+.nextPage {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    border: 1px solid #979797;
+    border-radius: 50% 50%;
+    font-size: 30px;
+    color: #979797;
+    margin: 0 30px;
+}
+
+/*project page title*/
+
+.nextPage {
+    padding-left: 10px;
+}
+
+.frontPage {
+    padding-right: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.mainTitle {
+    font-size: 36px;
+    color: #4A4A4A;
+}
+
+.subTitle {
+    font-size: 30px;
+    color: #CCCCCC;
+    margin: 27px 0 57px 0;
+    ;
+}
+
+/*project page table*/
+
+table {
+    width: 100%;
+    border: 1px solid #979797;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+th {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 26px;
+}
+
+td {
+    padding-bottom: 60px;
+}
+
+/*test*/
+
+.testBorder {
+    border: 1px solid gray;
+    background-color: lightgray;
 }

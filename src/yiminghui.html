@@ -8,13 +8,219 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Yee's personal homPage</title>
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/yiminhui.css">
 
 </head>
+
 <body>
-    yiminhui
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <div class="container-fluid project-header">
+        <div class="project-pic float-left"></div>
+        <div class="btn float-right">
+            <span class="frontPage testBorder" style="cursor:not-allowed">〈</span>
+            <span class="nextPage toTripflow">〉</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="title">
+            <h4 class="mainTitle fontBlod">Yiminghui Noodle</h4>
+            <p class="subTitle textContent">Create online system to improve online experience</p>
+        </div>
+        <table>
+            <colgroup>
+                <col style="width:25%">
+                <col style="width:25%">
+                <col style="width:25%">
+                <col style="width:52%">
+            </colgroup>
+            <tr class="fontBlod">
+                <th>TEAM</th>
+                <th>MY ROLES</th>
+                <th>UR METHODS</th>
+                <th>DESIGN METHODS</th>
+            </tr>
+            <tr class="textContent">
+                <td>Yi Wan</td>
+                <td>UX/UI Designer</td>
+                <td>Observe</td>
+                <td>Visioning/Storyboarding</td>
+            </tr>
+            <tr class="textContent">
+                <td>Min Zhang</td>
+                <td class="fontBlod">DATE</td>
+                <td>Interview</td>
+                <td>Rapid Prototyping</td>
+            </tr>
+            <tr class="textContent">
+                <td>Chang Liu</td>
+                <td>Aug-Nov 2018</td>
+                <td>Affinity Diagramming</td>
+                <td>Print Design/Book Design</td>
+            </tr>
+        </table>
+        <div class="section">
+            <p class="textTitle">Challenge：Establishing online system to generate sales and data management. </p>
+            <p class="textContent">Yiminghui Food Factory is a traditional rice noodle manufacturer which serves the customers in the central part
+                of Wuhan and surrounding cities. </p>
+            <p class="red textContent">It is using the quite tradition business way, they don’t have any online system to manage their sales and products.
+                More than 400 orders are made by telephone everyday.</p>
+            <p class="red textContent">I worked with them on this 3-month project to tackle the problem by creating a postive online experience. I did
+                comprehensive user research to collect needs and pains points, and then brought ideas to fruition after rounds
+                of validation and iteration.</p>
+        </div>
+        <div class="section">
+            <p class="textTitle">User research to find problems and gather insights</p>
+            <p class="textContent">I spent one week gathering customers’ stories to understand how the factory works and who are their clients are.
+                Observe and interview method was taken during the research.</p>
+            <div class="swiper">
+                <img src="" alt="" class="testBorder">
+                <!--<img src="" alt="">
+                <img src="" alt="">-->
+            </div>
+        </div>
+        <div class="section">
+            <p class="textTitle">Currently the daily working process of Yiming Food</p>
+            <div class="processPic testBorder">
+                <img src="" alt="" class="testBorder">
+            </div>
+            <div class="processText">
+                <p class="textContent">· The customer service department calls all customers (300+) to get the order at 3:00 pm, then put the information
+                    in the excel sheet and deliver it to manufacturing department. </p>
+                <p class="textContent">· The manufacturing department gets started to manufacture according to the orders at 6:00 pm. </p>
+                <p class="textContent">· The transportation department checks the orders based on different regions and distributes the orders to
+                    drivers in different regions.</p>
+                <p class="textContent">· The business department collects the bill from customers according to the total amount of money in excel
+                    sheet every 10 days. </p>
+            </div>
+        </div>
+        <div class="section">
+            <p class="textTitle">Affinity Diagramming</p>
+            <p class="textContent">After gathering the data, I put the notes on individual post-it notes and created data buckets in the form of
+                an affinity diagram. This affinity diagram allowed me to naturally group related ideas. After grouping ideas,
+                I created higher level data buckets that encompassed the overall messages and themes of the various groupings.
+                This completed affinity diagram helped reveal my main findings and insights.</p>
+            <div class="affinityPic testBorder">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="section">
+            <p class="textTitle">Research findings</p>
+            <p class="textContent">By analyzing and synthesizing the data I gathered, I was able to get the heart of the matter and see what the
+                research was telling me. This led to four insights of the </p>
+            <div class="imageTextBox">
+                <p class="imageTextTitle">Internal Problems</p>
+                <div class="imageText">
+                    <img src="../images/yiminhui/Insight1.png" alt="">
+                    <img src="../images/yiminhui/Insight2.png" alt="">
+                    <img src="../images/yiminhui/Insight3.png" alt="">
+                    <img src="../images/yiminhui/Insight4.png" alt="">
+                </div>
+            </div>
+            <div class="imageTextBox">
+                <p class="imageTextTitle">Customer Needs</p>
+                <div class="imageText">
+                    <img src="../images/yiminhui/customer-insight1.png" alt="">
+                    <img src="../images/yiminhui/customer-insight2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <p class="textTitle">Persona</p>
+            <p class="textContent">I created two personas reflecting the two main groups of clients I targeted at: old couples with low level of
+                education and young independent entrepreneur</p>
+            <div class="imageBox">
+                <img src="../images/yiminhui/Person1.png" alt="">
+            </div>
+        </div>
+        <div class="section">
+            <p class="textTitle">Product proposal</p>
+            <p class="textContent">After discussing with the developers, we decided that the backend system is supported both on PC and web, based
+                on responsive web design since the it serves the customer service, sales and finance in the company. Considering
+                the difference from traditional e-commerce, the modules of order management, client management and product
+                management are all optimized.</p>
+            <p class="textContent">Taking the consideration of the limitation of clients’ age and their concept, and the coverage of wechat usage
+                in China, we decided to design the frontend based on wechat mini app in order to reduce the learning curve
+                of users at the greatest extent. </p>
+        </div>
+        <div class="section">
+            <p class="textTitle">Prototyping</p>
+            <p class="textContent">After validating various concepts with participants and clients, their feedback led me to create and develop
+                prototypes. For both internal system and online shop. I went through 1 round of paper prototyping, 2 rounds
+                of medium fidelity, and 2 rounds of high-fidelity. The low-fidelity prototypes focused on concept validation
+                and simple usability. The medium-fidelity rounds were more concerned with testing usability and flow between
+                screens. Lastly, the high-fidelity prototypes focused on content and visual design.</p>
+            <div class="protptypeBox">
+                <img src="../images/yiminhui/customer-prototype.png" alt="">
+            </div>
+        </div>
+        <div class="section">
+            <p class="textTitle">Usability Testing</p>
+            <p class="textContent">During our medium-fidelity prototyping phase, the accountant、customer service、sales person and two of the clients
+                participated in the usability testing. It consisted of 2 rounds with a total of 6 participants. For both
+                rounds, we used Sketch and mockingbot to create a clickable prototype that participants interacted with inside
+                a web browser.</p>
+        </div>
+        <div class="section">
+            <p class="textTitle">The Final Prototype</p>
+            <p class="textContent">For the backg-stage management system, I divided it into four modules——Clients managemt, Order management, Product
+                management and Data analysis. These four modules supports sales person, customer service, product manager
+                and finance seperately.</p>
+            <div class="finalProtptypeBox">
+                <div style="text-align:center">
+                    <img src="../images/yiminhui/customer-manage.png" alt="">
+                </div>
+                <p class="annotation">All clients’ infomation are collected and then assigned to different sales person by manager. So the clients
+                    can still be reached even though sales person left.</p>
+            </div>
+            <div class="finalProtptypeBox">
+                <div style="text-align:center">
+                    <img src="../images/yiminhui/order-manage.png" alt="">
+                </div>
+                <p class="annotation">Considering some clients may prefer the traditional way to make orders, the order list can be filtered by
+                    “Paid orders”, “Unpaid orders” and “No-order cilents”. Customers service only have to call “no order             clients” and add the orders manually. All orders list can be export into excel sheet to double check
+                    with generation and transport department.</p>
+            </div>
+            <div class="finalProtptypeBox">
+                <div style="text-align:center">
+                    <img src="../images/yiminhui/product-manage.png" alt="">
+                </div>
+                <p class="annotation">For the last ten years, Yiminhui Food Factory has been focused on these four products and made a big sucess.
+                    They are planning to develop some other products. The card style makes it easy to understand their main
+                    products.</p>
+            </div>
+            <div class="finalProtptypeBox">
+                <div style="text-align:center">
+                    <img src="../images/yiminhui/date-analyze.png" alt="">
+                </div>
+                <p class="annotation">Daily orders ( both paid online orders and unpaid phone orders ) can be checked. Sales volum can be easily
+                    compared between products and sales areas. Sales performance is clear and all data can be export directly
+                    to support finance accounting.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="overflow:hidden">
+        <div style="margin-top:10px;">
+            <span class="nextPage float-right toTripflow"> 〉</span>
+        </div>
+        <div class="float-right">
+            <p class="fontBlod">Tripflow</p>
+            <p>Product Design</p>
+        </div>
+    </div>
+    <footer>
+        <p class="lightGray fontSm">Design &amp; code by Yi Wan © 2018 ❤️Last update: December 10th, 2018 @ Christchurch,New Zealand</p>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <!--<script src="../../js/bootstrap.min.js"></script>-->
+    <script>
+        $(document).ready(function () {
+            $(".toTripflow").click(function () {
+                location.href = './triPal.html';
+            });
+        });
+    </script>
+
 </body>
+
 </html>

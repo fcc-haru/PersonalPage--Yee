@@ -1,0 +1,95 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: #4A4A4A;
+}
+
+.swiper {
+    height: 316px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.swiper>img {
+    flex: 0 0 670px;
+}
+
+.processPic {
+    width: 100%;
+    height: 663px;
+    margin-bottom: 40px;
+}
+
+.processText p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.affinityPic {
+    width: 100%;
+    height: 452px;
+}
+
+.imageTextBox {
+    margin-bottom: 40px;
+}
+
+.imageTextTitle {
+    font-size: 24px;
+    color: #B04746;
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 4px !important;
+}
+
+.imageText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imageText img {
+    height: 400px;
+    width: 400px;
+    margin: 0 60px;
+}
+
+.imageBox {
+    width: 100%;
+    height: 666px;
+}
+
+.imageBox>img {
+    width: 100%;
+    height: 100%;
+}
+
+.protptypeBox {
+    width: 100%;
+    height: 1023px;
+}
+
+.protptypeBox>img {
+    width: 100%;
+    height: 100%;
+}
+
+.annotation {
+    font-size: 16px;
+    font-family: PingFangSC-Light;
+    font-weight: 300;
+    padding: 20px 150px;
+}
+
+.finalProtptypeBox,
+.finalProtptypeBox>div {
+    width: 100%;
+}
+
+.finalProtptypeBox>div>img {
+    width: 900px;
+    height: 563px;
+}

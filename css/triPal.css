@@ -1,0 +1,46 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: #4A4A4A;
+}
+
+.image {
+    width: 1200px;
+    height: 600px;
+    margin-bottom: 62px;
+}
+
+.section {
+    width: 1200px;
+}
+
+.bigPadding {
+    padding: 0 88px;
+}
+
+.midPadding {
+    padding: 0 15px;
+}
+
+.whatDo div:first-of-type {
+    margin-bottom: 60px;
+}
+
+.triPalCard {
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.cardLeft {
+    width: 600px;
+    height: 100%;
+}
+
+.cardRight {
+    width: 527px;
+    height: 100%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
